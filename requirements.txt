@@ -1,5 +1,0 @@
-streamlit
-matplotlib
-numpy
-beautifulsoup4
-requests
