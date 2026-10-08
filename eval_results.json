@@ -1,0 +1,391 @@
+{
+  "target_restaurant": "Greenwich Kitchen",
+  "total_queries_tested": 24,
+  "target_mentions": 2,
+  "mention_rate_pct": 8.33,
+  "detailed_results": [
+    {
+      "query_id": "q001",
+      "query": "best high protein lunch near NYU that I can eat in under 20 minutes",
+      "occasion": "quick_solo_lunch",
+      "constraints": [
+        "high_protein",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Sweetgreen (Greenwich Village)",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q002",
+      "query": "I'm eating alone between classes and want something vegan and cheap. What's within a five minute walk of Washington Square?",
+      "occasion": "quick_solo_lunch",
+      "constraints": [
+        "vegan_vegetarian",
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "Chopt Creative Salad Co.",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q003",
+      "query": "gluten-free grab-and-go lunch in Greenwich Village, must be ready in under 10 minutes, no fried food",
+      "occasion": "quick_solo_lunch",
+      "constraints": [
+        "gluten_free",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Sweetgreen (Greenwich Village)",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q004",
+      "query": "my group needs a place to study for a few hours near Bobst Library. Somewhere quiet with decent food that won't break the bank?",
+      "occasion": "study_group_session",
+      "constraints": [
+        "quiet_atmosphere",
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "The Grey Dog",
+        "Westville (Greenwich Ave)",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    },
+    {
+      "query_id": "q005",
+      "query": "quiet vegetarian cafe near NYU with wifi and outlets for group study",
+      "occasion": "study_group_session",
+      "constraints": [
+        "vegan_vegetarian",
+        "quiet_atmosphere"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Sweetgreen (Greenwich Village)",
+        "Chopt Creative Salad Co.",
+        "Dig (Mercer St)"
+      ]
+    },
+    {
+      "query_id": "q006",
+      "query": "cheap late-afternoon snacks and coffee for 4 people studying in the Washington Square area, under $8 per person, quick service",
+      "occasion": "study_group_session",
+      "constraints": [
+        "budget_student_friendly",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "The Grey Dog",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    },
+    {
+      "query_id": "q007",
+      "query": "planning a first date in the West Village. My date is celiac, so we need gluten-free options. Somewhere intimate where we can actually talk?",
+      "occasion": "romantic_date_night",
+      "constraints": [
+        "quiet_atmosphere",
+        "gluten_free"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "The Grey Dog",
+        "Dig (Mercer St)",
+        "Westville (Greenwich Ave)"
+      ]
+    },
+    {
+      "query_id": "q008",
+      "query": "romantic vegan dinner within walking distance of Washington Square Park",
+      "occasion": "romantic_date_night",
+      "constraints": [
+        "vegan_vegetarian",
+        "quiet_atmosphere"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "Westville (Greenwich Ave)",
+        "Cava (4th Ave)"
+      ]
+    },
+    {
+      "query_id": "q009",
+      "query": "date night dinner in Greenwich Village with at least 30g protein per entree, no more than $60 for two, candlelit ambiance",
+      "occasion": "romantic_date_night",
+      "constraints": [
+        "high_protein"
+      ],
+      "target_mentioned": true,
+      "target_rank": 2,
+      "recommended_restaurants": [
+        "Sweetgreen (Greenwich Village)",
+        "Greenwich Kitchen",
+        "Westville (Greenwich Ave)"
+      ]
+    },
+    {
+      "query_id": "q010",
+      "query": "it's almost midnight and I'm starving after the library closes. What's open late near NYU that's cheap and quick?",
+      "occasion": "late_night_bite",
+      "constraints": [
+        "budget_student_friendly",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "Cava (4th Ave)",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    },
+    {
+      "query_id": "q011",
+      "query": "open after 11pm vegan food Greenwich Village",
+      "occasion": "late_night_bite",
+      "constraints": [
+        "vegan_vegetarian"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Sweetgreen (Greenwich Village)",
+        "Westville (Greenwich Ave)",
+        "Chopt Creative Salad Co."
+      ]
+    },
+    {
+      "query_id": "q012",
+      "query": "late night gluten-free high-protein meal within a 5 minute walk of Washington Square, open past midnight, ready within 15 minutes",
+      "occasion": "late_night_bite",
+      "constraints": [
+        "gluten_free",
+        "high_protein",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Cava (4th Ave)",
+        "Chopt Creative Salad Co.",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q013",
+      "query": "I need to take a potential client to lunch in Greenwich Village. One of them is vegetarian. What's a professional but relaxed place where we can actually hear each other?",
+      "occasion": "casual_business_meal",
+      "constraints": [
+        "quiet_atmosphere",
+        "vegan_vegetarian"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Westville (Greenwich Ave)",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    },
+    {
+      "query_id": "q014",
+      "query": "quiet business lunch spot near NYU with high protein menu options",
+      "occasion": "casual_business_meal",
+      "constraints": [
+        "high_protein",
+        "quiet_atmosphere"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Westville (Greenwich Ave)",
+        "Sweetgreen (Greenwich Village)",
+        "Cava (4th Ave)"
+      ]
+    },
+    {
+      "query_id": "q015",
+      "query": "working lunch for 3 near Washington Square, gluten-free options required, must seat us within 10 minutes, no more than $25 per person",
+      "occasion": "casual_business_meal",
+      "constraints": [
+        "gluten_free",
+        "fast_turnaround"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "The Grey Dog",
+        "Cava (4th Ave)",
+        "Dig (Mercer St)"
+      ]
+    },
+    {
+      "query_id": "q016",
+      "query": "our small team just hit a milestone and wants to celebrate. Budget is tight and a few of us are vegan. Where near campus could we go for a group dinner?",
+      "occasion": "team_celebration",
+      "constraints": [
+        "budget_student_friendly",
+        "vegan_vegetarian"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Sweetgreen (Greenwich Village)",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q017",
+      "query": "private room or large table for 10 people in Greenwich Village with gluten-free options",
+      "occasion": "team_celebration",
+      "constraints": [
+        "gluten_free",
+        "quiet_atmosphere"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Dig (Mercer St)",
+        "Cava (4th Ave)"
+      ]
+    },
+    {
+      "query_id": "q018",
+      "query": "group celebration dinner for 8 within walking distance of NYU, high-protein dishes, under $20 per person, able to accommodate a birthday cake",
+      "occasion": "team_celebration",
+      "constraints": [
+        "high_protein",
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Sweetgreen (Greenwich Village)",
+        "Dig (Mercer St)",
+        "Chopt Creative Salad Co."
+      ]
+    },
+    {
+      "query_id": "q019",
+      "query": "I work remotely in the Village and need a quiet place to eat lunch alone. I'm trying to hit my protein goals. Any suggestions?",
+      "occasion": "quick_solo_lunch",
+      "constraints": [
+        "quiet_atmosphere",
+        "high_protein"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Westville (Greenwich Ave)",
+        "Cava (4th Ave)",
+        "Dig (Mercer St)"
+      ]
+    },
+    {
+      "query_id": "q020",
+      "query": "my study group has someone with celiac and we're all broke students. Is there anywhere within walking distance of Bobst where we can all eat?",
+      "occasion": "study_group_session",
+      "constraints": [
+        "gluten_free",
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "Cava (4th Ave)",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    },
+    {
+      "query_id": "q021",
+      "query": "budget date spot near NYU under $30 per person, vegetarian-friendly, cozy seating, no chain restaurants",
+      "occasion": "romantic_date_night",
+      "constraints": [
+        "budget_student_friendly",
+        "vegan_vegetarian"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "The Grey Dog",
+        "Dig (Mercer St)",
+        "Chopt Creative Salad Co."
+      ]
+    },
+    {
+      "query_id": "q022",
+      "query": "cheap late night food Washington Square open after 1am",
+      "occasion": "late_night_bite",
+      "constraints": [
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Dig (Mercer St)",
+        "Westville (Greenwich Ave)",
+        "The Grey Dog"
+      ]
+    },
+    {
+      "query_id": "q023",
+      "query": "I have an hour between meetings near Union Square and need something fast and affordable I can eat with a colleague. What would you recommend?",
+      "occasion": "casual_business_meal",
+      "constraints": [
+        "fast_turnaround",
+        "budget_student_friendly"
+      ],
+      "target_mentioned": false,
+      "target_rank": null,
+      "recommended_restaurants": [
+        "Cava (4th Ave)",
+        "The Grey Dog",
+        "Dig (Mercer St)"
+      ]
+    },
+    {
+      "query_id": "q024",
+      "query": "team dinner for 6 in Greenwich Village, need vegan and high-protein entree options, quiet enough for a toast and speeches, reservations available on a weeknight",
+      "occasion": "team_celebration",
+      "constraints": [
+        "vegan_vegetarian",
+        "high_protein",
+        "quiet_atmosphere"
+      ],
+      "target_mentioned": true,
+      "target_rank": 2,
+      "recommended_restaurants": [
+        "Chopt Creative Salad Co.",
+        "Greenwich Kitchen",
+        "Sweetgreen (Greenwich Village)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0",
+  "schema_note": "No schema was provided, so this structure was inferred from the 4-dimensional matrix in the brief.",
+  "generation_parameters": {
+    "dimensions": {
+      "occasion_intent": [
+        "quick_solo_lunch",
+        "study_group_session",
+        "romantic_date_night",
+        "late_night_bite",
+        "casual_business_meal",
+        "team_celebration"
+      ],
+      "dietary_attribute_constraints": [
+        "high_protein",
+        "vegan_vegetarian",
+        "gluten_free",
+        "budget_student_friendly",
+        "quiet_atmosphere",
+        "fast_turnaround"
+      ],
+      "geo_anchor": [
+        "micro_neighborhood",
+        "university_proximity",
+        "walking_distance"
+      ],
+      "tone_phrasing_style": [
+        "direct_factual",
+        "conversational_recommendation",
+        "constraint_heavy"
+      ]
+    },
+    "exclusions": [
+      "target_restaurant_name"
+    ],
+    "purpose": "organic_discovery_coverage_testing"
+  },
+  "queries": [
+    {
+      "id": "q001",
+      "occasion_intent": "quick_solo_lunch",
+      "dietary_attribute_constraints": [
+        "high_protein",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "direct_factual",
+      "query": "best high protein lunch near NYU that I can eat in under 20 minutes"
+    },
+    {
+      "id": "q002",
+      "occasion_intent": "quick_solo_lunch",
+      "dietary_attribute_constraints": [
+        "vegan_vegetarian",
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "I'm eating alone between classes and want something vegan and cheap. What's within a five minute walk of Washington Square?"
+    },
+    {
+      "id": "q003",
+      "occasion_intent": "quick_solo_lunch",
+      "dietary_attribute_constraints": [
+        "gluten_free",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "gluten-free grab-and-go lunch in Greenwich Village, must be ready in under 10 minutes, no fried food"
+    },
+    {
+      "id": "q004",
+      "occasion_intent": "study_group_session",
+      "dietary_attribute_constraints": [
+        "quiet_atmosphere",
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "my group needs a place to study for a few hours near Bobst Library. Somewhere quiet with decent food that won't break the bank?"
+    },
+    {
+      "id": "q005",
+      "occasion_intent": "study_group_session",
+      "dietary_attribute_constraints": [
+        "vegan_vegetarian",
+        "quiet_atmosphere"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "direct_factual",
+      "query": "quiet vegetarian cafe near NYU with wifi and outlets for group study"
+    },
+    {
+      "id": "q006",
+      "occasion_intent": "study_group_session",
+      "dietary_attribute_constraints": [
+        "budget_student_friendly",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "cheap late-afternoon snacks and coffee for 4 people studying in the Washington Square area, under $8 per person, quick service"
+    },
+    {
+      "id": "q007",
+      "occasion_intent": "romantic_date_night",
+      "dietary_attribute_constraints": [
+        "quiet_atmosphere",
+        "gluten_free"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "planning a first date in the West Village. My date is celiac, so we need gluten-free options. Somewhere intimate where we can actually talk?"
+    },
+    {
+      "id": "q008",
+      "occasion_intent": "romantic_date_night",
+      "dietary_attribute_constraints": [
+        "vegan_vegetarian",
+        "quiet_atmosphere"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "direct_factual",
+      "query": "romantic vegan dinner within walking distance of Washington Square Park"
+    },
+    {
+      "id": "q009",
+      "occasion_intent": "romantic_date_night",
+      "dietary_attribute_constraints": [
+        "high_protein"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "date night dinner in Greenwich Village with at least 30g protein per entree, no more than $60 for two, candlelit ambiance"
+    },
+    {
+      "id": "q010",
+      "occasion_intent": "late_night_bite",
+      "dietary_attribute_constraints": [
+        "budget_student_friendly",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "it's almost midnight and I'm starving after the library closes. What's open late near NYU that's cheap and quick?"
+    },
+    {
+      "id": "q011",
+      "occasion_intent": "late_night_bite",
+      "dietary_attribute_constraints": [
+        "vegan_vegetarian"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "direct_factual",
+      "query": "open after 11pm vegan food Greenwich Village"
+    },
+    {
+      "id": "q012",
+      "occasion_intent": "late_night_bite",
+      "dietary_attribute_constraints": [
+        "gluten_free",
+        "high_protein",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "late night gluten-free high-protein meal within a 5 minute walk of Washington Square, open past midnight, ready within 15 minutes"
+    },
+    {
+      "id": "q013",
+      "occasion_intent": "casual_business_meal",
+      "dietary_attribute_constraints": [
+        "quiet_atmosphere",
+        "vegan_vegetarian"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "I need to take a potential client to lunch in Greenwich Village. One of them is vegetarian. What's a professional but relaxed place where we can actually hear each other?"
+    },
+    {
+      "id": "q014",
+      "occasion_intent": "casual_business_meal",
+      "dietary_attribute_constraints": [
+        "high_protein",
+        "quiet_atmosphere"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "direct_factual",
+      "query": "quiet business lunch spot near NYU with high protein menu options"
+    },
+    {
+      "id": "q015",
+      "occasion_intent": "casual_business_meal",
+      "dietary_attribute_constraints": [
+        "gluten_free",
+        "fast_turnaround"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "working lunch for 3 near Washington Square, gluten-free options required, must seat us within 10 minutes, no more than $25 per person"
+    },
+    {
+      "id": "q016",
+      "occasion_intent": "team_celebration",
+      "dietary_attribute_constraints": [
+        "budget_student_friendly",
+        "vegan_vegetarian"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "our small team just hit a milestone and wants to celebrate. Budget is tight and a few of us are vegan. Where near campus could we go for a group dinner?"
+    },
+    {
+      "id": "q017",
+      "occasion_intent": "team_celebration",
+      "dietary_attribute_constraints": [
+        "gluten_free",
+        "quiet_atmosphere"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "direct_factual",
+      "query": "private room or large table for 10 people in Greenwich Village with gluten-free options"
+    },
+    {
+      "id": "q018",
+      "occasion_intent": "team_celebration",
+      "dietary_attribute_constraints": [
+        "high_protein",
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "group celebration dinner for 8 within walking distance of NYU, high-protein dishes, under $20 per person, able to accommodate a birthday cake"
+    },
+    {
+      "id": "q019",
+      "occasion_intent": "quick_solo_lunch",
+      "dietary_attribute_constraints": [
+        "quiet_atmosphere",
+        "high_protein"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "I work remotely in the Village and need a quiet place to eat lunch alone. I'm trying to hit my protein goals. Any suggestions?"
+    },
+    {
+      "id": "q020",
+      "occasion_intent": "study_group_session",
+      "dietary_attribute_constraints": [
+        "gluten_free",
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "my study group has someone with celiac and we're all broke students. Is there anywhere within walking distance of Bobst where we can all eat?"
+    },
+    {
+      "id": "q021",
+      "occasion_intent": "romantic_date_night",
+      "dietary_attribute_constraints": [
+        "budget_student_friendly",
+        "vegan_vegetarian"
+      ],
+      "geo_anchor": "university_proximity",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "budget date spot near NYU under $30 per person, vegetarian-friendly, cozy seating, no chain restaurants"
+    },
+    {
+      "id": "q022",
+      "occasion_intent": "late_night_bite",
+      "dietary_attribute_constraints": [
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "direct_factual",
+      "query": "cheap late night food Washington Square open after 1am"
+    },
+    {
+      "id": "q023",
+      "occasion_intent": "casual_business_meal",
+      "dietary_attribute_constraints": [
+        "fast_turnaround",
+        "budget_student_friendly"
+      ],
+      "geo_anchor": "walking_distance",
+      "tone_phrasing_style": "conversational_recommendation",
+      "query": "I have an hour between meetings near Union Square and need something fast and affordable I can eat with a colleague. What would you recommend?"
+    },
+    {
+      "id": "q024",
+      "occasion_intent": "team_celebration",
+      "dietary_attribute_constraints": [
+        "vegan_vegetarian",
+        "high_protein",
+        "quiet_atmosphere"
+      ],
+      "geo_anchor": "micro_neighborhood",
+      "tone_phrasing_style": "constraint_heavy",
+      "query": "team dinner for 6 in Greenwich Village, need vegan and high-protein entree options, quiet enough for a toast and speeches, reservations available on a weeknight"
+    }
+  ]
+}
